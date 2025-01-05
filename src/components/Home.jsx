@@ -50,8 +50,6 @@ function Home() {
         .catch(error => console.log('Error fetching data:', error));
     }, [finalFrom,finalTo,finalQuery,finalSource]);
      
-    console.log(newsData.publishedAt);
-    console.log(newsData.source);
   return (
     <div class="bg-slate-900 w-screen h-screen text-white overflow-auto">
      <Header></Header>

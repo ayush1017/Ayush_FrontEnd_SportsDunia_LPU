@@ -7,7 +7,7 @@ import { getAuth } from 'firebase/auth'
 import { app } from './firebase/firebase.config'
 import { useEffect, useState } from 'react';
 import { SearchProvider } from './components/context';
-import HI from './components/HI';
+
 
 function App() {
   const firebaseAuth=getAuth(app);
