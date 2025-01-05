@@ -1,0 +1,5 @@
+export {default as Login} from './Login'
+export {default as Home} from './Home'
+export {default as NCard} from './Ncard'
+export {default as Payout} from './PayoutCalculator'
+export {default as Analytics} from './Analytics'
