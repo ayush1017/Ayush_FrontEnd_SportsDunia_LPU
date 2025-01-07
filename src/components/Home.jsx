@@ -31,7 +31,7 @@ function Home() {
 
   // const finalFrom = formatDate(frm);
   // const finalTo = formatDate(td);
-  const finalFrom = frm ? formatDate(frm) : '2024-12-05';  // Default to today's date if frm is missing
+  const finalFrom = frm ? formatDate(frm) : '';  // Default to today's date if frm is missing
   const finalTo = td ? formatDate(td) :''  // Default to today's date if td is missing
   const finalQuery = query || 'tesla';  // Default to 'latest' if no query is provided
   const finalSource = srcc || ' '; 
