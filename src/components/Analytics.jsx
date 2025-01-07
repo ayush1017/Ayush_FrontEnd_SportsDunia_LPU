@@ -19,7 +19,7 @@ function Analytics() {
   useEffect(() => {
     // Fetch news data from API
     const fetchNewsData = async () => {
-      const res = await fetch('https://newsapi.org/v2/everything?q=tesla&from=2024-12-05&sortBy=publishedAt&sources=bbc-news,cnn,ABP-News&apiKey=5387d27d86764991a64e7fe3db6931a6');
+      const res = await fetch('https://newsapi.org/v2/everything?q=tesla&sortBy=publishedAt&sources=bbc-news,cnn,ABP-News&apiKey=5387d27d86764991a64e7fe3db6931a6');
       const data = await res.json();
 
       if (!data.articles || data.articles.length === 0) {
